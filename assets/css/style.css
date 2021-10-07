@@ -305,7 +305,7 @@ section {
   justify-content: space-between;
 }
 
-.step:not(last-child) {
+.step:not(:last-child) {
   border-bottom: 1px solid var(--tertiary-color);
 }
 /* STEPS STYLE END */
